@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features=".\\src\\test\\java\\featureFiles\\",
         glue ="steps",
-        tags ="@Test3",
-        monochrome = true
-        //dryRun =true
+        tags ="@sit",
+        monochrome = true,
+        dryRun =true
 
 )
 
